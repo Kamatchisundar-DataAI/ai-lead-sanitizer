@@ -156,7 +156,7 @@ if uploaded_file is not None:
         # --- PRE-PROCESSING STEP: EXACT POSITIONAL DISTRIBUTION ---
         st.markdown("---")
         st.subheader("🔀 Word-by-Word Column Splitter")
-        st.markdown("Select your master column containing multi-word text strings (like `bolo bol.com agale itok`) to cleanly split them into consecutive sheet locations:")
+        st.markdown("Select your master column containing multi-word text strings in single cell (like `Company Website First_Name Last_Name`) to cleanly split them into consecutive sheet locations:")
         
         split_col = st.selectbox("Select column to split (e.g., 'Company')", options=["-- Do Not Split Any Column --"] + all_columns)
         
