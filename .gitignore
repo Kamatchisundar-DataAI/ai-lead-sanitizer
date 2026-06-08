@@ -1,0 +1,7 @@
+# Ignore the hidden Streamlit secrets folder where your API key lives
+.streamlit/
+
+# Ignore local python virtual environments if you use them
+venv/
+.venv/
+__pycache__/
